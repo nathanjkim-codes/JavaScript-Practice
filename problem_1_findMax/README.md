@@ -16,6 +16,15 @@ return max;
 
 console.log(findMax([5, 1, 9, 3, 7])); // 9
 
+## How to Run
+
+Open terminal and type:
+node script.js
+
+## Output
+
+9
+
 ## What I Learned
 
 - How to look at all numbers in an array.
