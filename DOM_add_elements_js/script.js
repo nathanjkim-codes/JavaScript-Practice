@@ -26,3 +26,7 @@ divH1.textContent = "I'm in a div";
 // Create a <p> inside the <div>
 const divP = document.createElement("P");
 divP.textContent = "ME TOO!";
+
+// Append <h1> and <p> to the <div>
+pinkDiv.appendChild(divH1);
+pinkDiv.appendChild(divP);
