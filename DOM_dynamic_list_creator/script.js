@@ -16,3 +16,9 @@ const list = document.createElement("ul");
 container.appendChild(input);
 container.appendChild(addButton);
 container.appendChild(list);
+
+// Add event listener for the button 
+addButton.addEventListener("click", () => {
+  const text = input.value.trim(); // get and clean input text
+
+  if (text === "") return; // do nothing if input is empty
