@@ -18,3 +18,7 @@ const pinkDiv = document.createElement("div");
 pinkDiv.style.border = "2px solid black";
 pinkDiv.style.backgroundColor = "pink";
 pinkDiv.style.padding = "10px";
+
+// create an <h1> inside the <div>
+const divH1 = document.createElement("h1");
+divH1.textContent = "I'm in a div";
