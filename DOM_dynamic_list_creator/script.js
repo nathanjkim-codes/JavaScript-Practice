@@ -8,3 +8,11 @@ input.placeholder = "Enter an item";
 
 const addButton = document.createElement("button");
 addButton.textContent = "Add Item";
+
+// Create a <ul> to hold list items
+const list = document.createElement("ul");
+
+// Add all the elements to the container
+container.appendChild(input);
+container.appendChild(addButton);
+container.appendChild(list);
