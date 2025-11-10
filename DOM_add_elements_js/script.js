@@ -30,3 +30,6 @@ divP.textContent = "ME TOO!";
 // Append <h1> and <p> to the <div>
 pinkDiv.appendChild(divH1);
 pinkDiv.appendChild(divP);
+
+// Append the <div> to the container
+container.appendChild(pinkDiv);
