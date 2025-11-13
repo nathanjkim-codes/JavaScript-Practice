@@ -12,3 +12,12 @@ addButton.addEventListener("click", () => {
 
   // If the input is empty, do nothing
   if (text === "") return;
+    
+  // Create a new <li> element
+  const newItem = document.createElement("li");
+  newItem.textContent = text;
+
+  // Add a "Remove" button to each list item
+  const removeBtn = document.createElement("button");
+  removeBtn.textContent = "Delete";
+  removeBtn.style.marginLeft = "10px";
