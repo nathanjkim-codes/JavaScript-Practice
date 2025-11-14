@@ -26,3 +26,9 @@ addButton.addEventListener("click", () => {
   removeBtn.addEventListener("click", () => {
     newItem.remove();
   });
+    
+  // Add the remove button into the <li>
+  newItem.appendChild(removeBtn);
+
+  // Add the new <li> to the <ul>
+  list.appendChild(newItem);
