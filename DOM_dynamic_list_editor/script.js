@@ -21,3 +21,8 @@ addButton.addEventListener("click", () => {
   const removeBtn = document.createElement("button");
   removeBtn.textContent = "Delete";
   removeBtn.style.marginLeft = "10px";
+
+   // Remove button deletes its own list item
+  removeBtn.addEventListener("click", () => {
+    newItem.remove();
+  });
