@@ -12,7 +12,7 @@ addButton.addEventListener("click", () => {
 
   // If the input is empty, do nothing
   if (text === "") return;
-    
+
   // Create a new <li> element
   const newItem = document.createElement("li");
   newItem.textContent = text;
@@ -22,13 +22,17 @@ addButton.addEventListener("click", () => {
   removeBtn.textContent = "Delete";
   removeBtn.style.marginLeft = "10px";
 
-   // Remove button deletes its own list item
+  // Remove button deletes its own list item
   removeBtn.addEventListener("click", () => {
     newItem.remove();
   });
-    
+
   // Add the remove button into the <li>
   newItem.appendChild(removeBtn);
 
   // Add the new <li> to the <ul>
   list.appendChild(newItem);
+
+  // Clear input after adding
+  input.value = "";
+});
