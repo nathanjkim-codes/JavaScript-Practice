@@ -18,4 +18,9 @@ addBtn.addEventListener("click", () => {
   const nameEl = document.createElement("h3");
   nameEl.classList.add("member-name");
   nameEl.textContent = name;
-});
+
+// Create the Delete button
+const deleteBtn = document.createElement("button")
+deleteBtn.classList.add("delete-btn");
+deleteBtn.textContent = "Delete"
+
