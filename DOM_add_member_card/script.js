@@ -20,7 +20,11 @@ addBtn.addEventListener("click", () => {
   nameEl.textContent = name;
 
 // Create the Delete button
-const deleteBtn = document.createElement("button")
+const deleteBtn = document.createElement("button");
 deleteBtn.classList.add("delete-btn");
-deleteBtn.textContent = "Delete"
+deleteBtn.textContent = "Delete";
 
+// Create the Edit button
+const editBtn = document.createElement("button");
+editBtn.classList.add("edit-btn");
+editBtn.textcontent = "Edit";
