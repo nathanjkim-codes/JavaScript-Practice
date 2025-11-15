@@ -6,6 +6,10 @@ addBtn.addEventListener("click", () => {
     const name = nameInput.value.trim();
 
     if(name === "") {
-        alert("Please enter a name!");
+        alert("Please enter a name");
         return;
     }
+
+    // Create the card div
+    const card = document.createElement("div");
+    card.classList.add("member-card");
