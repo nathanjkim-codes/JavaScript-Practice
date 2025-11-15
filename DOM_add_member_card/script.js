@@ -17,5 +17,5 @@ addBtn.addEventListener("click", () => {
   // Create the name element
   const nameEl = document.createElement("h3");
   nameEl.classList.add("member-name");
-  nameEl.textcontent = name;
+  nameEl.textContent = name;
 });
