@@ -37,4 +37,5 @@ card.appendChild(editBtn);
 // Append the card to the card container
 cardContainer.appendChild(card);
 
-
+// Clear the input field for the next input
+nameInput.value = "";
