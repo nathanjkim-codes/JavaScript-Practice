@@ -24,6 +24,11 @@ addBtn.addEventListener("click", () => {
   deleteBtn.classList.add("delete-btn");
   deleteBtn.textContent = "Delete";
 
+  //  Create click functionality to the Delete button
+  deleteBtn.addEventListener("click", () => {
+    cardContainer.removeChild(card);
+  });
+
   // Create the Edit button
   const editBtn = document.createElement("button");
   editBtn.classList.add("edit-btn");
