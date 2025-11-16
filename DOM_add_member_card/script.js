@@ -28,3 +28,11 @@ deleteBtn.textContent = "Delete";
 const editBtn = document.createElement("button");
 editBtn.classList.add("edit-btn");
 editBtn.textcontent = "Edit";
+
+// Append elements to the card
+card.appendChild(nameEl);
+card.appendChild(deleteBtn);
+card.appendChild(editBtn);
+
+
+
