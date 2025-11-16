@@ -24,7 +24,7 @@ addBtn.addEventListener("click", () => {
   deleteBtn.classList.add("delete-btn");
   deleteBtn.textContent = "Delete";
 
-  //  Create click functionality to the Delete button
+  //  Create functionality to delete the card
   deleteBtn.addEventListener("click", () => {
     cardContainer.removeChild(card);
   });
@@ -33,6 +33,13 @@ addBtn.addEventListener("click", () => {
   const editBtn = document.createElement("button");
   editBtn.classList.add("edit-btn");
   editBtn.textContent = "Edit";
+
+  editBtn.addEventListener("click", () => {
+    const newName = prompt("Enter a new name:", nameEl.textContent);
+    if (newName !== null && newName.trim() !== "") {
+      nameEl.textContent = newName.trim();
+    }
+  });
 
   // Append elements to the card
   card.appendChild(nameEl);
