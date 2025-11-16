@@ -34,5 +34,7 @@ card.appendChild(nameEl);
 card.appendChild(deleteBtn);
 card.appendChild(editBtn);
 
+// Append the card to the card container
+cardContainer.appendChild(card);
 
 
