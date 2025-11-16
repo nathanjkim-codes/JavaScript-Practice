@@ -27,7 +27,7 @@ deleteBtn.textContent = "Delete";
 // Create the Edit button
 const editBtn = document.createElement("button");
 editBtn.classList.add("edit-btn");
-editBtn.textcontent = "Edit";
+editBtn.textContent = "Edit";
 
 // Append elements to the card
 card.appendChild(nameEl);
@@ -37,5 +37,5 @@ card.appendChild(editBtn);
 // Append the card to the card container
 cardContainer.appendChild(card);
 
-// Clear the input field for the next input
+// Clear the input field for the next submission
 nameInput.value = "";
