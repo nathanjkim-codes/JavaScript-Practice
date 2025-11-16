@@ -1,0 +1,74 @@
+body {
+  background-color: #fff5e5;
+  font-family: Arial, sans-serif;
+  color: #5c4033;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+#nameInput {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ffd966;
+  font-size: 16px;
+}
+
+button {
+  background-color: #ff9f6b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  cursor: pointer;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #ffb085;
+}
+
+.member-card {
+  background-color: #ffe8c5;
+  border: 1px solid #ffd966;
+  border-radius: 10px;
+  padding: 16px;
+  margin-top: 10px;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.member-name {
+  font-size: 18px;
+  margin: 0;
+}
+
+.delete-btn,
+.edit-btn {
+  background-color: #ff9f6b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 5px 8px;
+  margin-left: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.delete-btn:hover,
+.edit-btn:hover {
+  background-color: #ffb085;
+}
