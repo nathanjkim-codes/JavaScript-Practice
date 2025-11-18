@@ -34,10 +34,7 @@ addBtn.addEventListener("click", () => {
   editBtn.classList.add("edit-btn");
   editBtn.textContent = "Edit";
 
-<<<<<<< HEAD
-=======
   // create functionality to edit the card
->>>>>>> 1a9fe56 (feat: add edit button functionality)
   editBtn.addEventListener("click", () => {
     const newName = prompt("Enter a new name:", nameEl.textContent);
     if (newName !== null && newName.trim() !== "") {
