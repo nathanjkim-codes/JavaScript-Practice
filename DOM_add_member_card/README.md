@@ -51,3 +51,4 @@ Users can input a name, add it as a card, and see it displayed with "Delete" and
 - Using `prompt` for user interaction to edit existing content.
 - Styling elements using CSS classes and pseudo-classes (hover effects).
 - Basic layout with Flexbox to align elements vertically and horizontally.
+- How to implement Edit functionality by updating text content based on user input.
