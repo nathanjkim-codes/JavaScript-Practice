@@ -20,5 +20,6 @@ function renderCards(list) {
 // Typing in the search input
 // Using "input" event so that the function runs every time the user types
 searchInput.addEventListener("input", () => {
-// Get the search keyword (Lowercase for case-insensitive search)    
-    const keyword = searchInput.value.toLowerCase();
+  // Get the search keyword (Lowercase for case-insensitive search)
+  const keyword = searchInput.value.toLowerCase();
+});
