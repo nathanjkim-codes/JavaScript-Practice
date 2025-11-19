@@ -16,3 +16,8 @@ function renderCards(list) {
     cardContainer.appendChild(card);
   });
 }
+
+// Typing in the search input
+searchInput.addEventListener("input", () => {
+// Get the search keyword (Lowercase for case-insensitive search)    
+    const keyword = searchInput.value.toLowerCase();
