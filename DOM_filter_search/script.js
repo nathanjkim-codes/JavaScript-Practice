@@ -26,3 +26,6 @@ searchInput.addEventListener("input", () => {
 
 // filter members that include the keyword
 const filtered = members.filter((name) => name.toLowerCase().includes(keyword));
+
+// Render only the filtered results
+renderCards(filtered);
