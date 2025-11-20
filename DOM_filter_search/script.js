@@ -22,10 +22,12 @@ function renderCards(list) {
 searchInput.addEventListener("input", () => {
   // Get the search keyword (Lowercase for case-insensitive search)
   const keyword = searchInput.value.toLowerCase();
+
+  // filter members that include the keyword
+  const filtered = members.filter((name) =>
+    name.toLowerCase().includes(keyword)
+  );
+
+  // Render only the filtered results
+  renderCards(filtered);
 });
-
-// filter members that include the keyword
-const filtered = members.filter((name) => name.toLowerCase().includes(keyword));
-
-// Render only the filtered results
-renderCards(filtered);
