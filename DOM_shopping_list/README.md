@@ -27,3 +27,5 @@ A simple dynamic shopping list built with HTML, CSS, and JavaScript.
 - Creating and appending elements dynamically
 - Clearing input
 - Basic CSS styling for layout and hover effects
+- Understanding of how form.addEventListener("submit", ...)captures both actions
+- Understanding how e.preventDefault() stops the form from refreshing the page on submit
