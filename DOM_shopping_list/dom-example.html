@@ -9,18 +9,42 @@
     <h1>Dynamic Shopping List</h1>
 
     <!-- Form: label + input + button -->
-    <form>
-      <label for="item">Enter a new item:</label>
-      <input id="item" type="text" />
-      <button>Add</button>
+    <form id="form">
+      <label for="itemInput">Enter a new item:</label>
+      <input id="itemInput" type="text" />
+      <button id="addBtn">Add</button>
     </form>
 
     <!-- Empty list where items will appear -->
-    <ul></ul>
+    <ul id="shopping-list"></ul>
 
-    <!-- You'll write your JavaScript here later -->
     <script>
-      /* Step-by-step JavaScript will go here */
+      // Select elements
+      const form = document.getElementById("form");
+      const input = document.getElementById("itemInput");
+      const list = document.getElementById("shopping-list");
+
+      // Add item function
+      function addItem(e) {
+        e.preventDefault(); // Prevent the form from submitting and refreshing the page
+
+        const itemText = input.value.trim();
+        if (itemText === "") return;
+
+        // Create li
+        const li = document.createElement("li");
+        li.textContent = itemText;
+
+        // Add li to list
+        list.appendChild(li);
+
+        // Clear input
+        input.value = "";
+        input.focus();
+      }
+
+      // Event: submit form
+      form.addEventListener("submit", addItem);
     </script>
   </body>
 </html>
