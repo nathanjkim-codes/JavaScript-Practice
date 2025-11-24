@@ -4,47 +4,66 @@
     <meta charset="UTF-8" />
     <title>Shopping List</title>
     <style>
+            /* Global */
       body {
-        font-family: Arial, sans-serif;
+        font-family: "Inter", Arial, sans-serif;
         background-color: #fdf6e3;
-        margin: 20px;
+        margin: 0;
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #333;
       }
 
+      h1 {
+        margin-bottom: 20px;
+        color: #ff6f61;
+        font-size: 2.2rem;
+        font-weight: 700;
+      }
+
+      /* Form */
       #form {
         display: flex;
-        gap: 10px;
-        margin-bottom: 20px;
+        align-items: center;
+        gap: 12px;
+        background: white;
+        padding: 15px 20px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        margin-bottom: 30px;
+      }
+
+      label {
+        font-weight: 600;
       }
 
       #itemInput {
         flex: 1;
-        padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
+        padding: 10px 15px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-size: 1rem;
+        outline: none;
+        transition: 0.2s ease;
       }
 
+      #itemInput:focus {
+        border-color: #ff6f61;
+        box-shadow: 0 0 0 3px rgba(255,111,97,0.2);
+      }
+
+      /* Button */
       button {
-        padding: 10px 20px;
+        padding: 10px 22px;
         border: none;
         background-color: #ff6f61;
         color: white;
-        border-radius: 5px;
+        border-radius: 8px;
         cursor: pointer;
-      }
-
-      button:hover {
-        background-color: #ff3b2f;
-      }
-
-      #shopping-list {
-        list-style: none;
-        padding: 0;
-      }
-
-      #shopping-list li {
-        padding: 10px;
-        border-bottom: 1px solid #ddd;
-      }
+        font-size: 1rem;
+        font-weight: 6
     </style>
   </head>
 
