@@ -9,6 +9,7 @@ const deleteBtn = document.querySelector(".delete-btn");
 const nameEl = document.querySelector(".member-name");
 const roleEl = document.querySelector(".member-role");
 const dobEl = document.querySelector(".member-dob");
+const genderEl = document.querySelector(".member-gender");
 
 // Edit button event
 editBtn.addEventListener("click", () => {
@@ -23,6 +24,10 @@ editBtn.addEventListener("click", () => {
   // Prompt for new DOB and update
   const newDob = prompt("Enter new DOB (YYYY-MM-DD)", dobEl.textContent);
   if (newDob) dobEl.textContent = newDob;
+
+  // Prompt for new gender update
+  const newGender = prompt("Choose gender", genderEl.textContent);
+  if (newGender) genderEl.textContent = newGender;
 });
 
 // Delete button event
