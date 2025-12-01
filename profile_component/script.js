@@ -24,3 +24,9 @@ editBtn.addEventListener("click", () => {
   const newDob = prompt("Enter new DOB (YYYY-MM-DD)", dobEl.textContent);
   if (newDob) dobEl.textContent = newDob;
 });
+
+// Delete button event
+deleteBtn.addEventListener("click", () => {
+  //remove card from the DOM
+  memberCard.remove();
+});
