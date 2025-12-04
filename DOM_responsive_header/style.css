@@ -38,3 +38,12 @@ body {
 .nav-list li a:hover {
   color: #ffcc00;
 }
+
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
