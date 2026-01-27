@@ -9,3 +9,6 @@ toggleBtn.addEventListener("click", () => {
 
 // update the button text on current state
 toggleBtn.textContent = isOn ? "ON" : "OFF";
+
+// update status text
+statusText.textContent = `Current status: ${isOn ? "ON" : "OFF"}`;
