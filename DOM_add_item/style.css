@@ -20,3 +20,16 @@ body {
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
+/* ===== Text ===== */
+h1 {
+  margin-bottom: 16px;
+  font-size: 20px;
+  text-align: center;
+}
+
+p {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+}
