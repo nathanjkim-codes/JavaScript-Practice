@@ -8,3 +8,4 @@ function addItem() {
   const name = nameInput.value.trim(); // remove whitespace
 
   if (name === "") return; // return if input is empty
+}
