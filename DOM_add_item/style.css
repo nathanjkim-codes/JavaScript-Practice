@@ -1,47 +1,28 @@
-/* Basic styles and reset */
-
-* {
-  box-sizing: border-box;
-}
-
 body {
   font-family: Arial, sans-serif;
-  background-color: #f5f6f8;
   padding: 40px;
-  display: flex;
-  justify-content: center;
 }
 
-/* ===== Layout ===== */
-.container {
-  background-color: #ffffff;
-  padding: 24px;
-  width: 320px;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-}
-/* ===== Text ===== */
 h1 {
-  margin-bottom: 16px;
-  font-size: 20px;
-  text-align: center;
+  margin-bottom: 12px;
 }
 
-p {
-  margin-top: 12px;
-  text-align: center;
+input {
+  padding: 8px;
   font-size: 14px;
-  color: #555;
 }
 
-/* ===== Button ===== */
 button {
-  width: 100%;
-  padding: 12px;
-  font-size: 16px;
+  padding: 8px 12px;
+  margin-left: 4px;
   cursor: pointer;
-  border: none;
-  border-radius: 6px;
-  background-color: #e0e0e0;
-  transition: background-color 0.2s ease;
+}
+
+ul {
+  margin-top: 16px;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 6px;
 }
