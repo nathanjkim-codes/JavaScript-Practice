@@ -16,3 +16,6 @@ function addItem() {
   nameList.appendChild(li);
   nameInput.value = "";
 }
+
+// Run addItem when button is clicked
+addBtn.addEventListener("click", addItem);
