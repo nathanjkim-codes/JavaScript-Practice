@@ -9,4 +9,4 @@ let users = [john, pete, mary];
 // Arrow function
 let names = users.map((user) => user.name);
 
-alert(names); // John, Pete, Mary
+console.log(names); // John, Pete, Mary
