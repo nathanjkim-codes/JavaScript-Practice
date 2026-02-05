@@ -7,6 +7,16 @@ Write the code that converts it into an array of names.
 
 ---
 
+## Key / Learned Points
+
+# Objects are like boxes: each object stores related data (like name and age).
+
+# Array is like a shelf: you can store many objects together and access them by index.
+
+# Map is a tool to transform arrays: it goes through each object and returns a new array with the values you want.
+
+# Using map, we can efficiently extract specific properties (like name) from an array of objects.
+
 ## Example
 
 ```js
