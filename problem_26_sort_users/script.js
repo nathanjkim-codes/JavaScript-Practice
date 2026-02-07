@@ -10,6 +10,11 @@ let arr = [pete, john, mary];
 
 sortByAge(arr);
 
+// Test
+console.log(arr[0].name);
+console.log(arr[1].name);
+console.log(arr[2].name);
+
 // now sorted is: [john, mary, pete]
 alert(arr[0].name); // John
 alert(arr[1].name); // Mary
