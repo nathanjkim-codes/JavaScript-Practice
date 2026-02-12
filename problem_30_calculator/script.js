@@ -17,9 +17,17 @@ const subtract = function (a, b) {
 console.log(subtract(7, 3)); // 4
 
 // ==================================
-//
+// SUM
+// ==================================
 
-const sum = function () {};
+const sum = function (numbers) {
+  return numbers.reduce((acc, cur) => acc + cur, 0);
+};
+console.log(sum([1, 2, 3, 4]));
+
+//===================================
+// MULTIPLY
+//===================================
 
 const multiply = function () {};
 
