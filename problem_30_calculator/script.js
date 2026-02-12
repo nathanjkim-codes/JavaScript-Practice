@@ -1,9 +1,23 @@
+// ==================================
+// ADD
+// ==================================
+
 const add = function (a, b) {
   return a + b;
 };
 console.log(add(3, 5)); // 8
 
-const subtract = function () {};
+// ==================================
+// SUBTRACT
+// ==================================
+
+const subtract = function (a, b) {
+  return a - b;
+};
+console.log(subtract(7, 3)); // 4
+
+// ==================================
+//
 
 const sum = function () {};
 
