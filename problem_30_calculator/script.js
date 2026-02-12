@@ -29,8 +29,14 @@ console.log(sum([1, 2, 3, 4]));
 // MULTIPLY
 //===================================
 
-const multiply = function () {};
+const multiply = function (array) {
+  return array.reduce((acc, cur) => acc * cur, 1);
+};
+console.log(multiply([1, 2, 3, 4]));
 
+//====================================
+// POWER
+//====================================
 const power = function () {};
 
 const factorial = function () {};
