@@ -46,7 +46,17 @@ console.log(power(3, 5));
 // FACTORIAL
 //====================================
 
-const factorial = function () {};
+const factorial = function (n) {
+  let product = 1;
+  for (let i = n; i > 0; i--) {
+    product *= i;
+  }
+  return product;
+};
+
+console.log(factorial(5)); // 120
+console.log(factorial(0)); // 1
+console.log(factorial(3)); // 6
 
 // Do not edit below this line
 module.exports = {
