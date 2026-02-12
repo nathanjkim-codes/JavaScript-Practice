@@ -18,3 +18,7 @@ const palindromes = function (string) {
 };
 
 module.exports = palindromes;
+
+palindromes("A car, a man, a maraca."); // true
+palindromes("racecar"); // true
+palindromes("tacos"); // false
