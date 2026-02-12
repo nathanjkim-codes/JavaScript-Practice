@@ -37,7 +37,14 @@ console.log(multiply([1, 2, 3, 4]));
 //====================================
 // POWER
 //====================================
-const power = function () {};
+const power = function (base, exponent) {
+  return base ** exponent;
+};
+console.log(power(3, 5));
+
+//====================================
+// FACTORIAL
+//====================================
 
 const factorial = function () {};
 
