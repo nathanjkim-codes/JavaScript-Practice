@@ -37,6 +37,7 @@ addBtn.addEventListener("click", () => {
   // create functionality to edit the card
   editBtn.addEventListener("click", () => {
     const newName = prompt("Enter a new name:", nameEl.textContent);
+
     if (newName !== null && newName.trim() !== "") {
       nameEl.textContent = newName.trim();
     }
